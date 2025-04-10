@@ -11,7 +11,7 @@ public class Candidates {
     public Candidates(String name, double pretendedSalary) throws InputMismatchException{
         this.name = name;
         this.pretendedSalary = pretendedSalary;
-        if(pretendedSalary <= baseSalary){
+        if(pretendedSalary <= baseSalary || pretendedSalary <= baseSalary + 100.00){
             this.isValid = true;
         }
         candidates.add(this);

@@ -1,7 +1,7 @@
 public class GenerateCandidates {
     public static void generate() {
         new Candidates("watashi", 2300.30);
-        new Candidates("Alice", 2500.50);
+        new Candidates("Alice", 2000.00);
         new Candidates("Bob", 1600.75);
         new Candidates("Charlie", 2900.30);
         new Candidates("Diana", 1700.90);
